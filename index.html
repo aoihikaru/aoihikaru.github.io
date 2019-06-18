@@ -1,16 +1,49 @@
 ﻿<!DOCTYPE html>
 
-<html lang="en"">
-<head>
+<html lang="en">
+  <head>
     <meta charset="utf-8" />
     <title>Aoi Hikaru's Project List</title>
-</head>
-<body>
-  <h1>Aoi Hikaru's Project List</h1>
-  <p>There are a list of finished projests:</p>
-  <ul>
-    <li><a href="/sedona">Sedona (2017)</a></li>
-  </ul>
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/normalize.css" rel="stylesheet" />
+  </head>
 
-</body>
+  <body class="page container">
+
+    <header class="header">
+      <nav class="header-nav">
+        <ul class="header-list no-margin">
+          <li class="header__list-item"><a class="header__list-link" href="#done">Законченные проекты</a></li>
+          <li class="header__list-item"><a class="header__list-link" href="#progress">В процессе</a></li>
+          <li class="header__list-item"><a class="header__list-link" href="#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="content">
+      <h1 class="visually-hidden">Aoi Hikaru's Project List</h1>
+      <h2 class="title" id="done">Законченные проекты:</h2>
+      <ul>
+        <li><a class="content__list-link" target="_blank" href="sedona/index.html">Sedona (2017)</a></li>
+        <li><a class="content__list-link" target="_blank" href="http://project1247553.tilda.ws/">Учебная визитка на Tilda (2019)</a></li>
+
+
+        
+      </ul>
+      <h2 class="title" id="progress">В процессе:</h2>
+      <ul>
+        <li><a class="content__list-link" target="_blank" href="">Olivia</a></li>
+      </ul>
+    </main>
+
+    <footer class="footer">
+      <h2 class="footer-contacts no-margin" id="contacts">Контакты:</h2>
+      <ul class="footer-list no-margin">
+        <li class="footer__list-item"><a class="footer__list-link" href="mailto:aoi.hikaru13@gmail.com">e-mail</a></li>
+        <li class="footer__list-item"><a class="footer__list-link" href="https://vk.com/aoi_hikaru">vk</a></li>
+        <li class="footer__list-item"><a class="footer__list-link" href="https://github.com/aoihikaru">github</a></li>
+      </ul>      
+    </footer>
+
+  </body>
 </html>

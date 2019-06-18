@@ -1,0 +1,57 @@
+﻿.page {
+  font-family: 'PT Sans', 'Arial', sans-serif;
+  min-width: 1200px;
+  margin: 0;
+  padding: 0;
+  color: #393939;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0 0 5px 0 black;
+}
+
+.header {
+  background-image: url(../img/background.jpg);
+  background-color: #393939;
+}
+
+.header-nav {
+  padding-bottom: 700px;
+}
+
+.header-list, .footer-list {
+  display: flex;
+  justify-content: space-around;
+  background-color: #393939;
+  list-style: none;
+}
+
+.header__list-link, .footer__list-link {
+  color: #c4c4c4;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.content {
+}
+
+.content__list-link {
+  color: #393939;
+}
+
+.title {
+  font-family: 'DidactGothic', 'Arial', sans-serif;
+}
+
+.visually-hidden {
+  font-size: 0px;
+}
+
+.footer {
+  background-color: #393939;
+  color: #c4c4c4;
+}
