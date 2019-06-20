@@ -1,4 +1,14 @@
-﻿.page {
+﻿@font-face {
+  font-family: 'Didact Gothic';
+  src: url(../fonts/didactgothic/DidactGothic.ttf);
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  src: url(../fonts/ptsans/PT_Sans-Web-Regular.ttf);
+}
+
+.page {
   font-family: 'PT Sans', 'Arial', sans-serif;
   min-width: 1200px;
   margin: 0;
@@ -21,19 +31,47 @@
   padding-bottom: 700px;
 }
 
-.header-list, .footer-list {
+.header-list,
+.footer-list {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: #393939;
   list-style: none;
 }
 
-.header__list-link, .footer__list-link {
+.header__list-link,
+.footer__list-link {
+  display: inline-block;
+  padding: 20px 40px;
   color: #c4c4c4;
+}
+
+.header__list-link:hover,
+.footer__list-link:hover,
+.header__list-link:focus,
+.footer__list-link:focus{
+  color: #F3F3F3;
+}
+
+.header__list-link:active,
+.footer__list-link:active {
+  color: #999999;
+}
+
+.header__list-link:visited,
+.footer__list-link:visited {
+  color: #6B6969;
+}
+
+.content__list-link,
+.header__list-link,
+.footer__list-link {
+  text-decoration: none;
 }
 
 .no-margin {
   margin: 0;
+  padding: 0;
 }
 
 .content {
@@ -43,8 +81,22 @@
   color: #393939;
 }
 
+.content__list-link:hover,
+.content__list-link:focus {
+  color: #6F6F6F;
+}
+
+.content__list-link:active {
+  color: #030202;
+}
+
+.content__list-link:visited {
+  color: #A1A0A0;
+}
+
 .title {
-  font-family: 'DidactGothic', 'Arial', sans-serif;
+  font-family: 'Didact Gothic', 'Arial', sans-serif;
+  padding: 20px 20px 0 20px;
 }
 
 .visually-hidden {
